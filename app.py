@@ -16,11 +16,11 @@ def inject_ads(response):
         ad_code = '''
         <div style="position:fixed;bottom:10px;right:10px;z-index:9999;">
           <!-- Google Ads script -->
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7908086051795035"
+            crossorigin="anonymous"></script>
           <ins class="adsbygoogle"
               style="display:block"
-              data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-              data-ad-slot="YYYYYYYYYY"
+              data-ad-client="ca-pub-7908086051795035"
               data-ad-format="auto"
               data-full-width-responsive="true"></ins>
           <script>
